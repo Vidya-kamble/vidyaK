@@ -1,0 +1,39 @@
+
+.diva{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+.margin{
+    padding-left: 200px;
+    padding-top: 20px;
+    margin-right: 50px;
+    background-color:gray;
+   
+}
+.demo{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+   
+}
+.lebala{
+    margin-left: 200px;
+}
+hai{
+    text-align: center;
+    margin-top: 150px ;
+}
+.btn{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    color: white;
+}
+.gallary{
+    margin-bottom: 10px 10px 10px 10px;
+}
+

@@ -1,0 +1,38 @@
+.div1{
+   
+    background-color: blue;
+    text-decoration: white;
+   padding-left: 50px;
+   margin: 10px 10px 20px 10px;
+   color: white;
+   /* border: 2px solid black; */
+   
+}
+.div2{
+  padding-right: 50px;
+  margin-left: 30px;
+  padding-left: 30px;
+  
+
+  text-align: left;
+  margin-right: 100px;
+ 
+}
+input
+{
+    width: 80%;
+    padding-top: 10px;
+}
+
+
+div{
+    padding: 10px 100px 10px 100px;
+}
+.btn{
+    padding: 10px 300px 0px 0px;
+    border: solid;
+    background-color: wheat;
+}
+p{
+    text-align: justify;
+}

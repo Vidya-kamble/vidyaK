@@ -1,0 +1,27 @@
+div{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    margin-right: 400px;
+    border: 2px solid black;
+    padding: 30px 100px 30px 160px;
+    font-size: larger;
+    background-color: burlywood;
+    padding-left: 80px;
+     padding-top: 10px;
+    
+ }
+ .btn{
+    margin-left: 30px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color:white;
+    background-color: black;
+ }
+ h2{
+     margin-left: -45px;
+
+ }
+ 
+ 
