@@ -1,0 +1,58 @@
+.horizon{
+    
+    border: 2px solid red;
+    background-color: red;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 100px;
+   margin-top: 0px;
+   padding-top: 0%;
+}
+
+.about{
+    border: 2px solid red;
+    padding: 10px 25px 10px 25px;
+    color: red;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+}
+.first {
+    width: 500px;
+}
+.second {
+    width: 500px;
+    background-color: blanchedalmond;
+    height: 530px;
+}
+h4{
+    font-weight: 700;
+    font-weight: bolder;
+}
+
+
+.header{
+    margin-left: 1245px;
+    margin-right: 90px;
+    margin-top: 0px;
+}
+.head{
+ margin-left: 70px;
+ 
+ 
+}
+.final{
+    margin-top: 50px;
+  
+}
+.mar{
+    margin-left: 70px;
+    width: 140%;
+   
+    
+}

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <style>
+      .navmovable {
+        background-color: blue;
+        padding: 8px;
+      }
+      .navmovable,
+      span {
+        color: white;
+      }
+      .bar,
+      a {
+        padding: 10px 20px 0px 20px;
+      }
+
+      #div1 {
+        position: absolute;
+        color: black;
+        margin-top: -400px;
+        margin-left: 100px;
+        font-weight: bold;
+        font-size: 50px;
+      }
+      /*
+            .head {
+                color: white;
+                font-family: "Raleway", sans-serif;
+                font-weight: bold;
+            }*/
+      .head1 {
+        font-family: "Raleway", sans-serif;
+        font-size: 25px;
+        color: grey;
+      }
+      .img {
+        margin-top: 10px;
+        height: 600px;
+      }
+      #btn {
+        background-color: blue;
+        color: white;
+        padding: 6px 15px;
+      }
+      .up {
+        margin-top: 6px;
+      }
+      .effect {
+        box-shadow: 0 0 10px lightblue;
+      }
+      .effect:hover {
+        background-color: royalblue;
+        transition-duration: 3s;
+        color: whitesmoke;
+      }
+      .about {
+        border-radius: 15px;
+        background-color: skyblue;
+        padding: 5px 20px;
+      }
+      .mar {
+        margin-left: 40px;
+      }
+      .ma {
+        margin-right: 40px;
+        border: 1px solid black;
+      }
+      .Colore {
+        background-color: rgb(211, 224, 233);
+
+        padding-top: 40px;
+      }
+      .prog {
+        color: black;
+      }
+      .pro {
+        color: black;
+      }
+      .progr {
+        margin: 30px 50px;
+        padding-right: 50px;
+      }
+      .card {
+        background-color: lightsteelblue;
+        height: 50px;
+        width: 50px;
+      
+        margin-right: 20px;
+      }
+      .emoji{
+        margin: 120px 100px 0px 100px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navmovable">
+      <i class="far fa-envelope ml-5"
+        ><a href="#"><span>contact@example.com</span></a></i
+      >
+      <i class="fas fa-mobile-alt pl-3"
+        ><a href="#"><span>+1677656467567</span></a></i
+      >
+
+      <i class="fab fa-twitter offset-6 pr-4"></i>
+      <i class="fab fa-facebook pr-4"></i>
+      <i class="fab fa-instagram pr-4"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-light bg-light pt-4 pb-4"
+    >
+      <a class="navbar-brand" href="#"
+        ><h2>BizLand<strong style="color: blue">.</strong></h2></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse offset-4" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active p-2">
+            <a class="nav-link text-primary" href="#"
+              ><u><b>Home</b></u
+              ><span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active letter p-2">
+            <a class="nav-link" href="#"><b>About</b></a>
+          </li>
+          <li class="nav-item active letter p-2">
+            <a class="nav-link" href="#"><b>Services</b></a>
+          </li>
+          <li class="nav-item active letter p-2">
+            <a class="nav-link" href="#"><b>Portfoilo</b></a>
+          </li>
+          <li class="nav-item active letter p-2">
+            <a class="nav-link" href="#"><b>Team</b></a>
+          </li>
+          <li class="nav-item dropdown active p-2">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <b>Dropdown link</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link p-2 up" href="#"><b>contact</b></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid" id="divi">
+      <img
+        src="images/university.jpg "
+        style="margin-top: -20px"
+        alt="bg"
+        class="img"
+        width="100%"
+      />
+
+      <div class="animate__fadeInBottomLeft" id="div1">
+        <p class="head">Welcome to <span style="color: blue">BizLand</span></p>
+        <h2 class="head1">
+          We are team of talented designers making websites with Bootstrap
+        </h2>
+        <button type="button" id="btn" class="btn btn-outline-secondary">
+          Get Started
+        </button>
+        <span style="font-size: 25px"
+          ><a href="#"
+            ><i class="far fa-play-circle"
+              ><span style="color: black">watch video</span></i
+            ></a
+          ></span
+        >
+      </div>
+    </div>
+    <!-- 
+        <div class="animate__fadeInBottomLeft"  id="div1">
+          <p class="head">Welcome to <span style="color: blue">BizLand</span></p>
+          <h2 class="head1">
+            We are team of talented designers making websites with Bootstrap
+          </h2>
+          <button type="button" id="btn" class="btn btn-outline-secondary">
+            Get Started
+          </button>
+          <span style="font-size: 25px"
+            ><a href="#"
+              ><i class="far fa-play-circle"
+                ><span style="color: black">watch video</span></i
+              ></a
+            ></span
+          >
+        </div>
+      </div>
+  
+      </div>
+       -->
+    <div class="m-5">
+      <div class="row">
+        <div class="col-3">
+          <div class="card p-3 effect" style="width: 18rem">
+            <i
+              class="fas fa-volleyball-ball pt-3 pl-3"
+              style="font-size: 40px"
+            ></i>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card p-3 effect" style="width: 18rem">
+            <i class="far fa-file-alt pt-3 pl-3" style="font-size: 40px"></i>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card p-3 effect" style="width: 18rem">
+            <i
+              class="fas fa-tachometer-alt pt-3 pl-3"
+              style="font-size: 40px"
+            ></i>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card p-3 effect" style="width: 18rem">
+            <i
+              class="fas fa-globe-africa pt-3 pl-3"
+              style="font-size: 40px"
+            ></i>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Colore">
+      <div class="row">
+        <div class="col-3"></div>
+
+        <div class="col-6" style="text-align: center">
+          <strong style="color: royalblue" class="about">ABOUT</strong
+          ><br /><br />
+          <strong style="font-size: 30px"
+            >Find Out More <strong style="color: royalblue">About Us</strong>
+          </strong>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quod?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, quia.
+          </p>
+        </div>
+        <div class="col-3"></div>
+      </div>
+
+      <div class="container-fluid m-5">
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="images/baby.jpg"
+              alt="baby"
+              class="mar"
+              width="600px"
+              height="600px"
+            />
+          </div>
+          <div class="col-6 pr-5">
+            <h2>
+              <strong
+                >Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.</strong
+              >
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              excepturi at sed quia labore quos vero, reiciendis earum
+              repudiandae placeat.
+            </p>
+            <br /><br />
+
+            <div class="row">
+              <div class="col-2">
+                <i
+                  class="fas fa-house-damage"
+                  style="
+                    font-size: 20px;
+                    padding: 30px;
+                    border-radius: 50%;
+                    background-color: lightblue;
+                  "
+                ></i>
+              </div>
+              <div class="col-10">
+                <b style="font-size: 20px; color: gray">
+                  Ullamco laboris nisi ut aliquip consequat</b
+                >
+                <br /><br />
+                <p>
+                  Magni facilis facilis repellendus cum excepturi quaerat
+                  praesentium libre trade
+                </p>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-2">
+                <i
+                  class="far fa-images"
+                  style="
+                    font-size: 20px;
+                    padding: 30px;
+                    border-radius: 50%;
+                    background-color: lightblue;
+                  "
+                ></i>
+              </div>
+              <div class="col-10">
+                <b style="font-size: 20px; color: gray">
+                  Ullamco laboris nisi ut aliquip consequat</b
+                >
+                <br /><br />
+                <p>
+                  Magni facilis facilis repellendus cum excepturi quaerat
+                  praesentium libre trade
+                </p>
+                <br /><br />
+                <p style="margin-left: -200px">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                  porro! Labore quidem illum delectus. Perspiciatis tenetur,
+                  ullam mollitia nemo iure cupiditate possimus exercitationem
+                  labore voluptas et veniam fuga voluptatem officiis! Eligendi
+                  maxime dolorum quis quae incidunt libero numquam. Quam
+                  temporibus velit, assumenda porro, eos ipsam hic non veniam
+                  ducimus in itaque? Sequi enim quisquam ad quibusdam rem verot
+                  quidem mollitia. Soluta, ea!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="progr">
+      <div class="row">
+        <div class="col-6">
+          <span style="color: black">
+            <pre>
+Html                                                                               100%</pre
+            >
+          </span>
+          <div class="progress">
+            <div
+              class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"aria-valuemax="100"
+            ></div>
+          </div>
+          <br />
+          <span style="color: black">
+            <pre>
+CSS                                                                               75%</pre
+            >
+          </span>
+          <div class="progress">
+            <div
+              class="progress-bar"role="progressbar"style="width: 75%"aria-valuenow="75"aria-valuemin="0"aria-valuemax="100"
+            ></div>
+          </div>
+          <br />
+          <span style="color: black">
+            <pre>
+Php                                                                              50%</pre
+            >
+          </span>
+          <div class="progress">
+            <div
+              class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"aria-valuemin="0"aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+        <div class="col-6">
+          <span style="color: black">
+            <pre>
+CSS                                                                                100%</pre
+            >
+          </span>
+          <div class="progress">
+            <div
+              class="progress-bar"role="progressbar"style="width: 100%"aria-valuenow="100"aria-valuemin="0"aria-valuemax="100"
+            ></div>
+          </div>
+          <br />
+          <span style="color: black">
+            <pre>
+Php                                                                               75%</pre
+            >
+          </span>
+          <div class="progress">
+            <div
+              class="progress-bar"role="progressbar"style="width: 75%"aria-valuenow="75"aria-valuemin="0"aria-valuemax="100"
+            ></div>
+          </div>
+          <br />
+          <span style="color: black">
+            <pre>
+Javascript                                                                          50%</pre
+            >
+          </span>
+          <div class="progress">
+            <div
+              class="progress-bar"role="progressbar"style="width: 50%"aria-valuenow="50"aria-valuemin="0"aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="row emoji">
+        <div class="col-3 card"></div>
+        <div class="col-3 card"></div>
+        <div class="col-3 card"></div>
+        <div class="col-3 card"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
